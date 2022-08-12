@@ -18,4 +18,4 @@ def food():
     return render_template('food.html', data=foodname)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port= 80)
